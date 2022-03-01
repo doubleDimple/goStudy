@@ -1,7 +1,13 @@
 package rectangle
 
-import "math"
+import (
+	"fmt"
+	"math"
+)
 
+func init() {
+	fmt.Println("rectangle package initialized")
+}
 func Area(len, wid float64) float64 {
 	area := len * wid
 	return area
